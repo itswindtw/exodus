@@ -1,0 +1,66 @@
+beginpdf 50 50
+
+simplecolor purple 0 0 2.8 50
+simplecolor gray 0 0 2.4 50
+simplecolor yellow 0 0 2.0 50
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign bottom
+set TextAlign center
+set Kerning 0
+set FontSize 12
+set ContentRotation clockwise
+text 0 0 11.8 14.6 1
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign center
+set TextAlign center
+set Kerning 0
+set FontSize 12
+set ContentRotation clockwise
+text 0 20 11.8 14.6 1
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign top
+set TextAlign center
+set Kerning 0
+set FontSize 12
+set ContentRotation clockwise
+text 0 40 11.8 14.6 1
+
+simplecolor purple 48.5 0 1.5 50
+simplecolor yellow 48.9 0 1.1 50
+simplecolor green 49.3 0 0.7 50
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign bottom
+set TextAlign center
+set Kerning 0
+set FontSize 12
+set ContentRotation clockwise
+text 38.2 0 11.8 14.6 1
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign center
+set TextAlign center
+set Kerning 0
+set FontSize 12
+set ContentRotation clockwise
+text 38.2 20 11.8 14.6 1
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign top
+set TextAlign center
+set Kerning 0
+set FontSize 12
+set ContentRotation clockwise
+text 38.2 40 11.8 14.6 1
+
+endpdf file:///tmp/blahblah2.pdf
+

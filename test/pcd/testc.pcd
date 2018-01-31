@@ -1,0 +1,59 @@
+beginpdf 50 50
+
+simplecolor purple 0 47 50 3
+simplecolor red 0 48 50 2
+simplecolor green 0 49 50 1
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign top
+set TextAlign center
+set Kerning 0
+set FontSizeCJK 12
+text 0 36 14.6 14 中
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign center
+set TextAlign center
+set Kerning 0
+set FontSizeCJK 12
+text 15 36 14.6 14 中
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign bottom
+set TextAlign center
+set Kerning 0
+set FontSizeCJK 12
+text 30 36 14.6 14 中
+
+simplecolor purple 0 0 50 2.15
+simplecolor red 0 0 50 1.15
+simplecolor green 0 0 50 0.15
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign top
+set TextAlign center
+set Kerning 0
+set FontSizeCJK 12
+text 0 0 14.6 14 中
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign center
+set TextAlign center
+set Kerning 0
+set FontSizeCJK 12
+text 15 0 14.6 14 中
+
+set Color CMYK:0.0,0.0,0.0,0.7
+set Typeface Univers Light
+set TextVerticalAlign bottom
+set TextAlign center
+set Kerning 0
+set FontSizeCJK 12
+text 30 0 14.6 14 中
+
+endpdf file:///tmp/blahblah2.pdf
